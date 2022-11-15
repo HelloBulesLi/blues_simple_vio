@@ -52,9 +52,9 @@ $\qquad$ used evo tool to  compare the traj with groudtruth in Euroc Dataset, th
 evo_traj  tum vio_odom_traj.tum  --plot_mode 'xyz' --plot --ref groud_truth.tum  --t_max_diff 0.01 --sync -a
 
 
-![Traj](evo_result/evo_traj_compare.png)
+![Traj](https://raw.githubusercontent.com/lliibboo/vins_msckf/main/evo_result/evo_traj_compare.png)
 
-![Traj](evo_result/evo_traj_xyz_compare.png)
+![Traj](https://raw.githubusercontent.com/lliibboo/vins_msckf/main/evo_result/evo_traj_xyz_compare.png)
 ***
 ## Future work
 * Porting on embedede platform(eg TX2, and use gpu do accelartion)
